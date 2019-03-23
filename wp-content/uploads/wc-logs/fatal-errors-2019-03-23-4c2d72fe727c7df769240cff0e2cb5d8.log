@@ -1,0 +1,12 @@
+2019-03-23T13:27:15+00:00 CRITICAL Uncaught exception 'InvalidArgumentException' with message 'Optimole SDK requires service api key.' in C:\xampp\htdocs\woocomerce\wp-content\plugins\optimole-wp\inc\config.php:52
+Stack trace:
+#0 C:\xampp\htdocs\woocomerce\wp-content\plugins\optimole-wp\inc\app_replacer.php(206): Optml_Config::init(Array)
+#1 C:\xampp\htdocs\woocomerce\wp-content\plugins\optimole-wp\inc\app_replacer.php(156): Optml_App_Replacer->set_properties()
+#2 C:\xampp\htdocs\woocomerce\wp-content\plugins\optimole-wp\inc\url_replacer.php(46): Optml_App_Replacer->init()
+#3 [internal function]: Optml_Url_Replacer->init('')
+#4 C:\xampp\htdocs\woocomerce\wp-includes\class-wp-hook.php(286): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\woocomerce\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\woocomerce\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\woocomerce\wp-settings.php(489): do_action('after_setup_the...')
+#8 C:\xampp\htdocs\woocomerce\wp-config.php(90): require in C:\xampp\htdocs\woocomerce\wp-content\plugins\optimole-wp\inc\config.php on line 52
+
